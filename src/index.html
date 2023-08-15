@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesla UI clone</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body>
+    <!---------------------------------------------------------------- Header --------------------------------------------------- -->
+    <header
+      class="pt-5 px-10 flex justify-between font-bold items-center fixed top-0 w-screen z-10"
+    >
+      <div class="ml-8">
+        <svg
+          class="w-32 cursor-pointer"
+          viewBox="0 0 342 35"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+      <div class="hidden lg:inline">
+        <ul class="flex space-x-2 text-sm">
+          <li>
+            <a class="nav-link" href="#model-3">Model 3</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#model-y">Model Y</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#model-x">Model X</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#model-s">Model S</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#solar-panel">Solar Panels</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#solar-roof">Solar Roof</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#accessories">Accessories</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="flex space-x-4 mr-2 text-sm">
+          <li class="nav-link">Shop</li>
+          <li class="nav-link">Account</li>
+          <li class="nav-link">Menu</li>
+        </ul>
+      </div>
+    </header>
+    <main class="snap-container">
+      <!--------------------------------------------- Model 3 Section ---------------------------------------------------------------->
+      <section
+        id="model-3"
+        class="car-section bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD')]"
+      >
+        <div class="section-content-wrapper">
+          <h1 class="section-heading">Model 3</h1>
+          <p class="section-text">
+            Order Online for
+            <span class="section-underlined-text">Touchless Delivery</span>
+          </p>
+        </div>
+        <div class="section-button-wrapper">
+          <button class="section-dark-button">Custom order</button>
+          <button class="section-light-button">Existing inventory</button>
+        </div>
+        <div class="absolute left-[50%] translate-x-[-50%] bottom-3">
+          <svg
+            class="h-7 w-7 animate-bounce"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </div>
+      </section>
+      <!---------------------------------------------------------- Model Y Section ------------------------------------------------->
+      <section
+        id="model-y"
+        class="car-section bg-[url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_2400,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-Y-Global-Desktop')]"
+      >
+        <div class="section-content-wrapper">
+          <h1 class="section-heading">Model Y</h1>
+          <p class="section-text">
+            Order Online for
+            <span class="section-underlined-text">Touchless Delivery</span>
+          </p>
+        </div>
+        <div class="section-button-wrapper">
+          <button class="section-dark-button">Custom order</button>
+          <button class="section-light-button">Existing inventory</button>
+        </div>
+      </section>
+      <!---------------------------------------------------------- Model X Section ------------------------------------------------->
+      <section
+        id="model-x"
+        class="car-section bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/ddc135ed-1638-40fb-8ab1-f8045059ecef/bvlatuR/std/4096x2560/Homepage-Model-X-Desktop-LHD')]"
+      >
+        <div class="section-content-wrapper">
+          <h1 class="section-heading">Model X</h1>
+          <p class="section-text">
+            Order Online for
+            <span class="section-underlined-text">Touchless Delivery</span>
+          </p>
+        </div>
+        <div class="section-button-wrapper">
+          <button class="section-dark-button">Custom order</button>
+          <button class="section-light-button">Existing inventory</button>
+        </div>
+      </section>
+      <!---------------------------------------------------------- Model S Section ------------------------------------------------->
+      <section
+        id="model-s"
+        class="car-section bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/538ac149-d103-4834-9d38-641d8ae447ef/bvlatuR/std/4096x2560/Homepage-Model-S-Desktop-LHD')]"
+      >
+        <div class="section-content-wrapper">
+          <h1 class="section-heading">Model S</h1>
+          <p class="section-text">
+            Order Online for
+            <span class="section-underlined-text">Touchless Delivery</span>
+          </p>
+        </div>
+        <div class="section-button-wrapper">
+          <button class="section-dark-button">Custom order</button>
+          <button class="section-light-button">Existing inventory</button>
+        </div>
+      </section>
+      <!---------------------------------------------------------- Solar Panel Section --------------------------------------------->
+      <section
+        id="solar-panel"
+        class="car-section bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/16b04537-a4be-4bf9-8637-86862a858da8/bvlatuR/std/2880x1800/_25-HP-SolarPanels-D')]"
+      >
+        <div class="section-content-wrapper">
+          <h1 class="section-heading">Solar Panel</h1>
+          <p class="section-text">Lowest Cost Solar panels in America</p>
+        </div>
+        <div class="section-button-wrapper">
+          <button class="section-dark-button">Order now</button>
+          <button class="section-light-button">Learn More</button>
+        </div>
+      </section>
+      <!---------------------------------------------------------- Solar Roof Section --------------------------------------------->
+      <section
+        id="solar-roof"
+        class="car-section bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/4a41ec0e-7316-46a8-8ce9-e2f195ba644d/bvlatuR/std/2880x1800/Homepage-SolarRoof-Desktop-Global?quality=auto-medium&format=auto')]"
+      >
+        <div class="section-content-wrapper">
+          <h1 class="section-heading">Solar Roof</h1>
+          <p class="section-text">Lowest Cost Solar panels in America</p>
+        </div>
+        <div class="section-button-wrapper">
+          <button class="section-dark-button">Order now</button>
+          <button class="section-light-button">Learn More</button>
+        </div>
+      </section>
+      <!-------------------------------------------------------------- Accessories Section ------------------------------------------>
+      <section
+        id="accessories"
+        class="car-section bg-[url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-NA-APAC.jpg')]"
+      >
+        <div class="section-content-wrapper">
+          <h1 class="section-heading">Accessories</h1>
+        </div>
+        <div class="section-button-wrapper">
+          <button
+            class="uppercase bg-gray-900 w-96 text-white rounded-full h-10 md:w-60"
+          >
+            Shop now
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

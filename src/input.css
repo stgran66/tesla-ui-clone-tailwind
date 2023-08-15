@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../public/GothamBook.ttf');
+}
+
+* {
+  font-family: 'Gotham Book', sans-serif;
+  position: relative;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  position: relative;
+}
+
+@layer components {
+  .link {
+    @apply cursor-pointer font-semibold;
+  }
+
+  .snap-container {
+    @apply snap-y snap-mandatory h-screen overflow-scroll scroll-smooth transition-all duration-500;
+  }
+
+  .car-section {
+    @apply snap-start snap-always relative h-screen bg-center bg-cover;
+  }
+
+  .nav-link {
+    @apply py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer block;
+  }
+
+  .section-content-wrapper {
+    @apply flex flex-col absolute top-20 left-[50%] translate-x-[-50%];
+  }
+
+  .section-heading {
+    @apply text-[40px] m-auto font-bold;
+  }
+
+  .section-text {
+    @apply whitespace-nowrap pt-1 text-[16px] text-[#5c5d61];
+  }
+
+  .section-underlined-text {
+    @apply underline underline-offset-4 hover:decoration-2 cursor-pointer;
+  }
+
+  .section-button-wrapper {
+    @apply absolute bottom-[80px] left-[50%] translate-x-[-50%] flex flex-col md:flex-row md:space-x-4;
+  }
+
+  .section-dark-button {
+    @apply uppercase bg-gray-800 w-96 text-white rounded-full h-10 md:w-60;
+  }
+
+  .section-light-button {
+    @apply uppercase bg-slate-200 w-96 text-gray-900 rounded-full h-10 mt-2 md:mt-0 md:w-60;
+  }
+}
